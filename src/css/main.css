@@ -1,0 +1,139 @@
+/*  html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+} */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(200, 239, 218);
+  height: auto;
+  width: 100vw;
+  height: 60px;
+}
+
+h4.alert {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  font-size: medium;
+  padding-left: 10px;
+  color: rgb(50, 145, 98);
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  font-size: 40px;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: -65px;
+  color: rgb(81, 82, 81);
+}
+
+.num {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: -10px;
+  color: rgb(115, 117, 115);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  margin-left: auto;
+
+}
+
+ul.menu {
+  padding-left: 0px;
+  margin-top: auto;
+}
+
+
+ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 3px;
+  font-size: 20px;
+  color: rgb(75, 139, 228);
+}
+
+a:hover {
+  color: rgb(50, 145, 98);
+}
+
+.exit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-top: 20px;
+  width: 125px;
+  height: 35px;
+  font-size: large;
+  color: white;
+  background-color: rgb(108, 117, 112);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  border: none;
+}
+
+.exit:hover {
+  background-color: rgb(50, 145, 98);
+  box-shadow: 0px 0px 5px 0px rgba(50,145,98,0.75);
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(200, 239, 218);
+  position: absolute;
+  bottom:  0%;
+  width: 100vw;
+  height: 60px;
+  padding-left: 0;
+  margin-left: -10px;
+}
+
